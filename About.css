@@ -1,0 +1,127 @@
+html, body{ 
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    background: crimson;
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 2px;
+    overflow-y: auto;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.nav-bar > ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar > ul  > a {
+  padding: 8px;
+  background: crimson;
+}
+
+.nav-bar > ul  > a:hover {
+  background: #173459;
+  color: #f8f9f9;
+}
+
+.nav-bar .active {
+  background: blueviolet;
+  color: khaki;
+}
+
+a href{
+  font-family:"Matura MT Script Capitals";
+  font-size: 20px;
+}
+
+.banner{
+    background: url('./Contact\ Us.jpg');
+    margin-left: 25%;
+    width:80%;
+    height:100%;
+    padding: 5px;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+
+
+h1{
+    font-family:"Matura MT Script Capitals";
+    color: white;
+    font-size: 100px;
+}
+
+h3{
+    font-family:"Matura MT Script Capitals";
+    color: white;
+    font-size: 50px;
+}
+
+h2{
+    text-align: center;
+    font-family: "Matura MT Script Capitals";
+    font-size: 45px;
+}
+
+.about{
+    font-family: "Matura MT Script Capitals";
+    font-size: 20px;
+    margin-left: 40%;
+    width:70%;
+    padding: 0px;
+}
+
+footer{
+    color: white;
+    background: black;
+    position: absolute;
+    font-size: 20px;
+    margin: 0%;
+    width:100%;
+    padding: 0px;
+    font-family:"Matura MT Script Capitals";
+}
+
+.footer-copyright{
+    width: 100%;
+    height:15px;
+    background: crimson;
+    background-size: 45px;
+    padding: 0px;
+    position:absolute;
+    bottom:8px;
+    left:0px;
+}
+.vanie{
+    font-size:40px;
+    text-align: center;
+}
+
+.footer-body{
+    margin-bottom: 40px;
+    padding: 10px;
+}
+
+.footer-body ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-body li> a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 7px;
+}
+
